@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8A6A9E4D19E6839100F83F4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6A9E4C19E6839100F83F4F /* main.m */; };
+		8A6A9E5519E683AD00F83F4F /* Vigenere.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6A9E5419E683AD00F83F4F /* Vigenere.m */; };
+		8A6A9E5819E6864100F83F4F /* VigenereChar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6A9E5719E6864100F83F4F /* VigenereChar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		8A6A9E4919E6839100F83F4F /* Vigenere */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Vigenere; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6A9E4C19E6839100F83F4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A6A9E5319E683AD00F83F4F /* Vigenere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vigenere.h; sourceTree = "<group>"; };
+		8A6A9E5419E683AD00F83F4F /* Vigenere.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vigenere.m; sourceTree = "<group>"; };
+		8A6A9E5619E6864100F83F4F /* VigenereChar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VigenereChar.h; sourceTree = "<group>"; };
+		8A6A9E5719E6864100F83F4F /* VigenereChar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VigenereChar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				8A6A9E4C19E6839100F83F4F /* main.m */,
+				8A6A9E5319E683AD00F83F4F /* Vigenere.h */,
+				8A6A9E5419E683AD00F83F4F /* Vigenere.m */,
+				8A6A9E5619E6864100F83F4F /* VigenereChar.h */,
+				8A6A9E5719E6864100F83F4F /* VigenereChar.m */,
 			);
 			path = Vigenere;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A6A9E5819E6864100F83F4F /* VigenereChar.m in Sources */,
+				8A6A9E5519E683AD00F83F4F /* Vigenere.m in Sources */,
 				8A6A9E4D19E6839100F83F4F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +214,7 @@
 		8A6A9E5119E6839100F83F4F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -209,6 +222,7 @@
 		8A6A9E5219E6839100F83F4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -232,6 +246,7 @@
 				8A6A9E5219E6839100F83F4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

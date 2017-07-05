@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[VigenereChar calculate]:VigenereChar.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(char)(calculated + 64)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[Vigenere encrypt::]:Vigenere.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int)&apos;#&apos;">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
